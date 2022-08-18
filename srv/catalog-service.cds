@@ -6,4 +6,6 @@ service CatalogService {
     entity Customers as projection on db.Customer;
     // @odata.draft.enabled
     entity SalesOrders as projection on db.SalesOrder;
+
+    function OrderStatus(ID : UUID) returns String;
 }
