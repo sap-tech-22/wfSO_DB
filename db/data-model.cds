@@ -7,6 +7,7 @@ entity Product {
     name: String(255);
     price: Integer;
     stock: Integer;
+    image: String;
 }
 
 entity Customer {
